@@ -1,0 +1,31 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/*.*.meta": true,
+        "**/*.cubemap": true,
+        "**/*.fbx": true,
+        "**/*.FBX": true,
+        "**/*.mat": true,
+        "**/*.meta": true,
+        "**/*.prefab": true,
+        "**/*.tga": true,
+        "**/*.unity": true,
+        "**/*.unityproj": true,
+        "**/Library": true,
+        "**/Logs": true,
+        "**/Packages": true,
+        "**/ProjectSettings": true,
+        "**/Temp": true,
+        "**/UserSettings": true,
+        "**/node_modules": true
+    }
+}
