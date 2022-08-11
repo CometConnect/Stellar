@@ -18,6 +18,7 @@ import axios from 'axios'
 import { Props } from '../types'
 import { API } from '../api'
 
+const gif = require('../assets/stars.gif')
 
 interface State {
     apod: API
@@ -47,8 +48,8 @@ export default class DailyPicScreen extends Component<Props, State> {
     }
 
     render() {
-        const { loading } = styles
         if (Object.keys(this.state.apod).length === 0) {
+            const { loading } = styles
             return (
                 <View style={loading}>
                     <Text>Loading</Text>
@@ -61,7 +62,7 @@ export default class DailyPicScreen extends Component<Props, State> {
             <View style={container}>
                 <SafeAreaView style={droidSafeArea} />
                 <ImageBackground
-                    source={require('../assets/stars.gif')}
+                    source={gif}
                     style={backgroundImage}
                 >
                     <View style={titleStyle}>
